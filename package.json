@@ -1,0 +1,48 @@
+{
+  "name": "react-native-argos",
+  "version": "0.1.0",
+  "description": "Pipe React Native console logs to Apple's os_log, visible in Console.app on device without a debugger attached.",
+  "main": "src/index",
+  "types": "src/index",
+  "files": [
+    "src",
+    "ios",
+    "argos.podspec"
+  ],
+  "keywords": [
+    "react-native",
+    "ios",
+    "logging",
+    "os_log",
+    "oslog",
+    "console"
+  ],
+  "author": "Arnaldo Rozon",
+  "license": "MIT",
+  "homepage": "https://github.com/roz0n/react-native-argos",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/roz0n/react-native-argos.git"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "bugs": {
+    "url": "https://github.com/roz0n/react-native-argos/issues"
+  },
+  "peerDependencies": {
+    "react": "*",
+    "react-native": ">=0.74.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "react": "18.2.0",
+    "react-native": "0.74.0",
+    "typescript": "^5.0.0"
+  },
+  "codegenConfig": {
+    "name": "ArgosSpec",
+    "type": "modules",
+    "jsSrcsDir": "src"
+  }
+}
